@@ -1,0 +1,25 @@
+# --- Virtual environment (never commit this) ---
+.venv/
+venv/
+env/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# --- FastF1 cache: large, regenerable, must never be committed ---
+data/raw/
+cache/
+*.ff1pkl
+
+# --- Processed data: regenerable from raw, so don't version it ---
+data/processed/
+
+# --- OS / editor noise ---
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
